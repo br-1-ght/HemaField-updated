@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html { scroll-behavior: smooth; }
+  body { overflow-x: hidden; }
+  ::-webkit-scrollbar { width: 5px; }
+  ::-webkit-scrollbar-track { background: #f9f3e8; }
+  ::-webkit-scrollbar-thumb { background: #255230; border-radius: 3px; }
+}
+
+@layer components {
+  .btn-rose {
+    @apply bg-rose text-white border-none px-9 py-3.5 text-xs font-medium tracking-widest uppercase rounded-sm cursor-pointer font-sans transition-all duration-200 hover:bg-rose-light hover:-translate-y-0.5 inline-block;
+  }
+  .btn-outline {
+    @apply bg-transparent text-cream/80 border border-cream/25 px-7 py-3.5 text-xs font-light tracking-widest uppercase rounded-sm cursor-pointer font-sans transition-all duration-200 hover:border-cream/70 hover:text-cream inline-block;
+  }
+  .s-tag {
+    @apply flex items-center gap-3 mb-3.5;
+  }
+  .s-tag::before {
+    content: '';
+    @apply w-6 h-px bg-rose block;
+  }
+  .s-tag span {
+    @apply text-[10px] tracking-[.2em] uppercase text-rose;
+  }
+  .s-title {
+    @apply font-serif text-[clamp(34px,4.5vw,54px)] font-light leading-tight text-ink mb-4;
+  }
+  .s-title em { @apply not-italic text-rose; }
+}

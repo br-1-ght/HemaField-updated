@@ -1,0 +1,34 @@
+// Local image imports — all images live in src/assets/
+import heroLaptop from '../assets/hero-laptop.jpg';
+import heroDelivery from '../assets/hero-delivery.jpg';
+import productRedRoses from '../assets/product-red-roses.jpg';
+import productMixedBouquet from '../assets/product-mixed-bouquet.jpg';
+import productRosesChocolates from '../assets/product-roses-chocolates.jpg';
+import productPremiumBox from '../assets/product-premium-box.jpg';
+import occasionLove from '../assets/occasion-love.jpg';
+import occasionApology from '../assets/occasion-apology.jpg';
+import occasionSelfLove from '../assets/occasion-self-love.jpg';
+import occasionCare from '../assets/occasion-care.jpg';
+import forRomance from '../assets/for-romance.jpg';
+import forSympathy from '../assets/for-sympathy.jpg';
+import forAchievement from '../assets/for-achievement.jpg';
+import forAppreciation from '../assets/for-appreciation.jpg';
+import brand1 from '../assets/brand-1.jpg';
+import brand2 from '../assets/brand-2.jpg';
+
+export const IMG1 = heroLaptop;
+export const IMG2 = heroDelivery;
+export const IMG3 = productRedRoses;
+export const IMG4 = productMixedBouquet;
+export const IMG5 = productRosesChocolates;
+export const IMG6 = productPremiumBox;
+export const IMG7 = occasionLove;
+export const IMG8 = occasionApology;
+export const IMG9 = occasionSelfLove;
+export const IMG10 = occasionCare;
+export const IMG11 = forRomance;
+export const IMG12 = forSympathy;
+export const IMG13 = forAchievement;
+export const IMG14 = forAppreciation;
+export const IMG15 = brand1;
+export const IMG16 = brand2;
