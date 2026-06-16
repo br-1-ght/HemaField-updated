@@ -590,7 +590,7 @@ export const CONTACT = {
   phone: '+234 803 303 0982',
   waNumber: '2348033030982',
   email: 'info@hemafieldflowers.com.ng',
-  address: '16, Maitama Sule Off Awolowo Road, Ikoyi, Lagos',
+  address: 'The City Mall, Lagos Island, Lagos',
   cutoff: 'Order by 2PM for same-day Lagos delivery',
   facebook: 'https://web.facebook.com/hemafield/?_rdc=1&_rdr#',
   instagram: 'https://www.instagram.com/hemafieldflowers/',
