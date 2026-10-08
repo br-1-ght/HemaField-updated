@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { PRODUCTS, Product } from '../data/data';
 import PaymentModal from './PaymentModal';
 
-export default function PopularProducts({ onShowAll }: { onShowAll?: () => void }) {
+export default function PopularProducts() {
   const [payModal, setPayModal] = useState<{ open: boolean; product: Product | null }>({
     open: false,
     product: null,
@@ -16,12 +16,12 @@ export default function PopularProducts({ onShowAll }: { onShowAll?: () => void 
       <div className="s-tag"><span>Most Popular ⭐</span></div>
       <div className="flex flex-wrap items-end justify-between gap-4 mb-3">
         <h2 className="s-title">What Lagos keeps <em>choosing</em></h2>
-        <button
-          onClick={() => onShowAll?.()}
-          className="text-xs tracking-widest uppercase text-muted border-b border-muted pb-0.5 hover:text-rose hover:border-rose transition-colors bg-transparent cursor-pointer"
+        <a
+          href="#occasions"
+          className="text-xs tracking-widest uppercase text-muted border-b border-muted pb-0.5 hover:text-rose hover:border-rose transition-colors"
         >
           Full collection →
-        </button>
+        </a>
       </div>
       <p className="text-[15px] font-light text-muted leading-[1.95] max-w-xl mb-12">
         Our most ordered arrangements — loved by thousands of Lagos couples, families and friends.
